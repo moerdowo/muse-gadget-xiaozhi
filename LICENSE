@@ -20,9 +20,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
--------------------------------------------------------------------------------
-
-This MIT License covers the code written for this fork (see NOTICE). Files
-taken from facebookincubator/muse-gadget-sdk stay under the Apache License,
-Version 2.0 (LICENSE-APACHE) and keep their Meta copyright headers; third-party
-files keep their own licenses, as listed in NOTICE.
