@@ -1,0 +1,9 @@
+# Holding BOOT: the live transcript as xiaozhi hears it.
+face=listening
+caption=What's the weather like in Jakarta today?
+level=0.7
+progress=0.35
+wifi=connected
+paired=true
+ble=off
+advance=1200

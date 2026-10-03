@@ -1,0 +1,7 @@
+# First run: the 6-digit code to add the device at xiaozhi.me.
+face=idle
+wifi=connected
+paired=false
+ble=off
+activation=482913
+advance=1500

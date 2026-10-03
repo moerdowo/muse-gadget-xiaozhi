@@ -1,0 +1,6 @@
+# Idle: Wi-Fi up, xiaozhi session ready.
+face=idle
+wifi=connected
+paired=true
+ble=off
+advance=1500

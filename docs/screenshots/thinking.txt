@@ -1,0 +1,7 @@
+# Released: waiting for xiaozhi's reply.
+face=thinking
+caption="What's the weather like in Jakarta today?"
+wifi=connected
+paired=true
+ble=off
+advance=1200

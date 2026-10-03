@@ -1,0 +1,56 @@
+muse-gadget-xiaozhi
+===================
+
+A fork of Meta's Muse Gadget SDK (https://github.com/facebookincubator/muse-gadget-sdk,
+commit 1b56662588c0ea00bdee24b9bcd1835e12848e9a) whose voice backend talks to the
+xiaozhi.me service (https://github.com/78/xiaozhi-esp32) instead of Muse.
+
+Not affiliated with, or endorsed by, Meta Platforms, Inc. or the xiaozhi project.
+"Muse" names the upstream SDK this is derived from.
+
+Licensing
+---------
+
+* New code and docs written for this fork are MIT licensed (LICENSE):
+    README.md                                   rewritten for this fork
+    esp32/components/muse/muse_chat_xiaozhi.c   xiaozhi backend
+    esp32/cmake/fetch_avatar.cmake              fetches the avatar at build time
+    docs/screenshots/*.txt                      simulator scenarios
+
+* Code from the Muse Gadget SDK, Copyright (c) Meta Platforms, Inc. and
+  affiliates, stays under the Apache License, Version 2.0 (LICENSE-APACHE),
+  with its original headers. These files were changed in this fork:
+    esp32/AGENTS.md, esp32/README.md            fork notes at the top
+    esp32/CMakeLists.txt
+    esp32/components/muse/CMakeLists.txt
+    esp32/components/muse/Kconfig
+    esp32/components/muse/idf_component.yml
+    esp32/components/muse/muse_chat.h
+    esp32/components/muse/muse_menu.c
+    esp32/components/muse/muse_settings.c
+    esp32/components/muse/muse_settings_ui.c
+    esp32/components/muse/muse_ui.c
+    esp32/components/muse/muse_voice.c
+    esp32/devices/sdkconfig.muse
+    esp32/simulator/CMakeLists.txt
+    esp32/simulator/compat/sdkconfig.h
+    esp32/simulator/src/main.c
+    esp32/simulator/src/sim_board.c
+    esp32/simulator/src/sim_services.c
+    esp32/simulator/src/sim_services.h
+    esp32/tools/muse/board.sh
+    esp32/tools/muse/ports.py
+  and these were added, derived from upstream board files (Apache-2.0):
+    esp32/components/muse/boards/board_waveshare_s3_18.c
+    esp32/devices/sdkconfig.muse-waveshare-s3-18
+
+* Third-party code keeps its upstream license:
+    esp32/components/minimp3/include/minimp3.h  CC0-1.0 (lieff/minimp3)
+    esp32/main/pixel_font.c                     BSD-2-Clause (Adafruit GFX)
+  Components fetched at build time (ESP-IDF component manager, LVGL, SDL for
+  the simulator) are under their own licenses.
+
+* The Jollybot avatar is Meta's, is not covered by the Apache License, and is
+  NOT included in this repository. esp32/cmake/fetch_avatar.cmake downloads it
+  from Meta's repository at build time (pinned commit, SHA-256 checked). The
+  screenshots in docs/screenshots show it as rendered by the firmware's UI.

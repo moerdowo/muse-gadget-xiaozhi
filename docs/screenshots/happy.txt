@@ -1,0 +1,6 @@
+# Tap the character to pet it.
+face=happy
+wifi=connected
+paired=true
+ble=off
+advance=900

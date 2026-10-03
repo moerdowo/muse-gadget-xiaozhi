@@ -1,0 +1,8 @@
+# The reply, captioned sentence by sentence as it's spoken.
+face=speaking
+caption=It's warm and humid in Jakarta, around 31 degrees, with a chance of rain later.
+level=0.5
+wifi=connected
+paired=true
+ble=off
+advance=1200
